@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px auto 0;
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.instaPhones {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+img.photo {
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 80px;
+}
+
+.userArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(219, 219, 219);
+  min-width: 350px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.instaLogo {
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.signUp {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.links {
+  color: rgb(64, 132, 209);
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.separador {
+  height: 1px;
+  background-color: rgba(219, 219, 219, 1);
+  width: 35%;
+  position: relative;
+  top: 0.45em;
+}
+
+div.formLogin {
+  display: flex;
+  width: 350px;
+  font-size: 14px;
+}
+
+.divdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.inputLogin {
+  height: 36px;
+  background-color: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 3px;
+  padding: 9px 8px;
+  width: 80%;
+}
+
+.buttonSignIn {
+  height: 36px;
+  background-color: rgba(0, 148, 246, 0.3);
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 3px;
+  opacity: 2;
+  color: #FFFFFF;
+  padding: 9px 8px;
+  width: 85%;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+p.downloadTheApp {
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.linkDownload {
+  margin: 10px 0px;
+}
+
+img.downloadApp {
+  width: 136px;
+  height: 40px;
+}
+
+footer {
+  color: rgb(171, 171, 171);
+}
