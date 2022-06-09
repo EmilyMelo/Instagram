@@ -1,2 +1,2 @@
 # Instagram
-Página inicial do Instagram com HTML, CSS e Flexbox.
+Página inicial do Instagram com HTML5, CSS3 e Flexbox.
